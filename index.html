@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RideMate | Legal learner-driver accompaniment in Ireland</title>
+  <meta name="description" content="RideMate connects learner drivers in Ireland with verified Driving Mates for legally accompanied everyday journeys, test-centre trips and confidence-building road experience." />
+  <link rel="icon" href="assets/logo_mark_green_tile.svg" type="image/svg+xml" />
+  <link rel="preload" href="styles.css" as="style" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="RideMate home">
+        <img src="assets/logo_horizontal_dark_ride_transparent.svg" alt="RideMate" />
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-nav-toggle>
+        <span></span><span></span><span></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+      <div id="nav-menu" class="nav-menu" data-nav-menu>
+        <a href="#learners">Learners</a>
+        <a href="#mates">Driving Mates</a>
+        <a href="#technology">Technology</a>
+        <a href="#safety">Safety</a>
+        <a href="#pricing">Pricing</a>
+        <a class="btn btn-small btn-dark" href="#waitlist">Join waitlist</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero section-dark">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Learner Driver Companion Network</p>
+          <h2>Legal accompaniment for everyday learner-driver journeys.</h2>
+          <p class="hero-lead">RideMate connects learner drivers with verified full licence holders, known as Driving Mates, for test-centre trips, essential errands, car collection, social journeys and confidence-building road experience.</p>
+          <div class="hero-actions">
+            <a class="btn btn-orange" href="#waitlist">Join the pilot waitlist</a>
+            <a class="btn btn-ghost" href="#estimate">See estimated cost</a>
+          </div>
+          <div class="trust-row" aria-label="RideMate trust indicators">
+            <span>Verified Mates</span>
+            <span>Time-based pricing</span>
+            <span>Compliance-first</span>
+          </div>
+        </div>
+
+        <div id="estimate" class="estimate-card" aria-label="RideMate journey estimate form">
+          <div class="card-topline">
+            <span class="live-dot"></span>
+            Pilot pricing preview
+          </div>
+          <h2>Plan an accompanied journey</h2>
+          <form class="estimate-form" data-estimator>
+            <label>
+              Journey type
+              <select name="journey">
+                <option value="everyday">Everyday errand</option>
+                <option value="test">Test-centre trip</option>
+                <option value="social">Social outing + waiting</option>
+                <option value="collection">Car collection</option>
+                <option value="confidence">Confidence drive</option>
+              </select>
+            </label>
+            <div class="form-row">
+              <label>
+                Active hours
+                <input type="number" min="1" max="8" value="2" name="activeHours" />
+              </label>
+              <label>
+                Waiting hours
+                <input type="number" min="0" max="8" value="0" name="waitingHours" />
+              </label>
+            </div>
+            <label>
+              Starting area
+              <input type="text" name="location" placeholder="Dublin, Galway, Cork..." />
+            </label>
+            <div class="estimate-result">
+              <div>
+                <span>Estimated learner cost</span>
+                <strong data-total>€33.99</strong>
+              </div>
+              <div>
+                <span>Estimated Mate earnings</span>
+                <strong data-earnings>€28.30</strong>
+              </div>
+            </div>
+            <button class="btn btn-dark btn-full" type="submit">Get early access</button>
+            <p class="small-note">Indicative pilot pricing. Final pricing may vary by availability, location and confirmed regulatory guidance.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="logos-strip">
+      <div class="container strip-grid">
+        <p>Built around one clear rule:</p>
+        <strong>Learners drive. Driving Mates accompany. RideMate verifies, schedules and supports.</strong>
+      </div>
+    </section>
+
+    <section id="learners" class="section section-cream">
+      <div class="container split">
+        <div>
+          <p class="eyebrow green">For learner drivers</p>
+          <h2>Drive your own car, with the right person beside you.</h2>
+          <p>RideMate is for learners who need practical, lawful accompaniment when family or friends are unavailable. It helps convert everyday journeys into confidence-building road experience.</p>
+          <div class="feature-list">
+            <article>
+              <span class="feature-icon">01</span>
+              <div><h3>Choose the journey</h3><p>Book errands, test-centre trips, social journeys, car collection, confidence drives or repeat Mate sessions.</p></div>
+            </article>
+            <article>
+              <span class="feature-icon">02</span>
+              <div><h3>Match with a verified Mate</h3><p>View eligibility, rating, availability and preferred area before confirming a booking.</p></div>
+            </article>
+            <article>
+              <span class="feature-icon">03</span>
+              <div><h3>Build road confidence</h3><p>Use real routes, real timing and real driving responsibilities while staying aligned with accompanied-driving rules.</p></div>
+            </article>
+          </div>
+        </div>
+        <div class="phone-cluster" aria-hidden="true">
+          <div class="phone phone-front">
+            <div class="phone-header"><img src="assets/logo_mark_green_tile.svg" alt="" /><span>RideMate</span></div>
+            <div class="map-card"><span class="route-point"></span><span class="route-line"></span><span class="route-point orange"></span></div>
+            <h3>Test-centre trip</h3>
+            <p>Today, 10:30 AM · 3 hours</p>
+            <div class="mate-card"><span class="avatar">DM</span><div><strong>Verified Driving Mate</strong><small>Full licence · 2+ years</small></div></div>
+            <button>Confirm booking</button>
+          </div>
+          <div class="phone phone-back">
+            <div class="stat-tile"><strong>€16/hr</strong><span>pilot learner rate</span></div>
+            <div class="stat-tile"><strong>€14.15/hr</strong><span>Mate payout target</span></div>
+            <div class="stat-tile"><strong>Check-in</strong><span>start & end records</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mates" class="section section-white">
+      <div class="container two-column-card">
+        <div class="dark-card">
+          <p class="eyebrow mint">For full licence holders</p>
+          <h2>Turn experience into responsible local earnings.</h2>
+          <p>RideMate gives eligible full licence holders a structured way to earn by helping learners stay accompanied, build confidence and take lawful action toward full licence independence.</p>
+          <a class="btn btn-orange" href="#waitlist">Become a Driving Mate</a>
+        </div>
+        <div class="impact-grid">
+          <article><h3>Eligibility-first</h3><p>Driving Mates must demonstrate full licence eligibility in the relevant category before accepting bookings.</p></article>
+          <article><h3>Schedule control</h3><p>Mates choose availability, preferred areas and journey types while RideMate handles payments and records.</p></article>
+          <article><h3>Compliance culture</h3><p>The marketplace rewards people who completed the licence journey and helps learners follow the same path.</p></article>
+          <article><h3>Trusted repetition</h3><p>Learners can rebook trusted Mates, improving consistency and reducing friction.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="technology" class="section section-dark tech-section">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow mint">The technology layer</p>
+          <h2>More than matching. A trust, compliance and confidence platform.</h2>
+          <p>Inspired by modern marketplace UX, RideMate adds regulatory-aware workflows, companion verification, pricing transparency and journey auditability.</p>
+        </div>
+        <div class="tech-grid">
+          <article><span>01</span><h3>Identity & licence verification</h3><p>Structured onboarding for learners and Driving Mates, with eligibility status displayed at booking.</p></article>
+          <article><span>02</span><h3>Time-based pricing engine</h3><p>Transparent hourly estimates with active-driving and waiting-time logic instead of taxi-style distance fares.</p></article>
+          <article><span>03</span><h3>Smart journey categories</h3><p>Errands, test-centre trips, car collection, social outings and confidence drives as productized workflows.</p></article>
+          <article><span>04</span><h3>Safety check-ins</h3><p>Start/end confirmation, incident reporting and emergency guidance designed into the booking journey.</p></article>
+          <article><span>05</span><h3>Compliance guardrails</h3><p>Declarations, terms and alerts to help prevent misuse and reinforce learner responsibilities.</p></article>
+          <article><span>06</span><h3>Admin and authority reports</h3><p>Operational dashboards for verification status, incidents, bookings, cancellations and anonymised impact metrics.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cream flywheel-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow green">Public-benefit flywheel</p>
+          <h2>Compliance creates confidence. Confidence creates mobility. Mobility creates opportunity.</h2>
+        </div>
+        <div class="flywheel">
+          <div class="wheel-card"><strong>1</strong><span>Learners need lawful accompaniment</span></div>
+          <div class="wheel-card"><strong>2</strong><span>RideMate verifies eligible Mates</span></div>
+          <div class="wheel-card"><strong>3</strong><span>More compliant journeys happen</span></div>
+          <div class="wheel-card"><strong>4</strong><span>Mates earn from experience</span></div>
+          <div class="wheel-card"><strong>5</strong><span>Learners build confidence and progress</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="safety" class="section section-white">
+      <div class="container split reverse">
+        <div class="safety-panel">
+          <img src="assets/logo_mark_green_tile.svg" alt="RideMate logo mark" />
+          <h3>Safety-first by design</h3>
+          <ul>
+            <li>Verified participant profiles</li>
+            <li>Learner responsibility declarations</li>
+            <li>Journey category controls</li>
+            <li>Incident reporting workflow</li>
+            <li>Admin review dashboard</li>
+          </ul>
+        </div>
+        <div>
+          <p class="eyebrow green">For regulators and partners</p>
+          <h2>A platform built to encourage lawful action, not bypass it.</h2>
+          <p>RideMate is positioned to help learners access eligible accompaniment while clearly separating Driving Mate bookings from formal driving instruction and EDT lessons.</p>
+          <div class="compliance-cards">
+            <article><h3>Not a driving school</h3><p>Standard Mates do not sell formal lessons, EDT or test-pass guarantees.</p></article>
+            <article><h3>Not ride-hailing</h3><p>The learner drives their own insured vehicle; RideMate sells reserved accompaniment time.</p></article>
+            <article><h3>Auditable by design</h3><p>Booking records, verification status and incident workflows support oversight and operational learning.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section pricing-section">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow green">Simple pilot pricing</p>
+          <h2>Affordable for learners. Worthwhile for Mates. Sustainable at scale.</h2>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <span>Pay as you go</span>
+            <h3>€16<span>/hr</span></h3>
+            <p>For everyday accompanied journeys and confidence drives.</p>
+            <ul><li>Verified Mate matching</li><li>Booking record</li><li>€1.99 booking fee</li></ul>
+          </article>
+          <article class="price-card featured">
+            <span>Confidence pack</span>
+            <h3>€155</h3>
+            <p>10 hours of accompanied driving time for repeat practice.</p>
+            <ul><li>Lower effective hourly rate</li><li>Rebook favourite Mates</li><li>Progress history</li></ul>
+          </article>
+          <article class="price-card">
+            <span>Driving Mate</span>
+            <h3>€14.15<span>/hr</span></h3>
+            <p>Indicative payout target for eligible full licence holders.</p>
+            <ul><li>Flexible availability</li><li>Transparent payouts</li><li>Local earning opportunity</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark app-section">
+      <div class="container app-grid">
+        <div>
+          <p class="eyebrow mint">App ecosystem</p>
+          <h2>One platform, three connected experiences.</h2>
+        </div>
+        <div class="app-cards">
+          <article><h3>Learner app</h3><p>Book a Driving Mate, estimate cost, confirm responsibility and build road confidence.</p></article>
+          <article><h3>Mate app</h3><p>Verify eligibility, set availability, accept bookings and track earnings.</p></article>
+          <article><h3>Admin console</h3><p>Manage verification, incidents, support tickets, safety metrics and compliance reports.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="waitlist" class="section section-cream waitlist-section">
+      <div class="container waitlist-grid">
+        <div>
+          <p class="eyebrow green">Join the feasibility pilot</p>
+          <h2>Help shape Ireland’s learner-driver companion network.</h2>
+          <p>Register interest as a learner driver, Driving Mate, ADI partner, insurer, authority contact or community partner.</p>
+        </div>
+        <form class="waitlist-form" data-waitlist>
+          <label>Full name<input required type="text" name="name" placeholder="Your name" /></label>
+          <label>Email<input required type="email" name="email" placeholder="you@example.com" /></label>
+          <label>I am a<select name="role"><option>Learner driver</option><option>Potential Driving Mate</option></select></label>
+          <label>County / area<input type="text" name="area" placeholder="e.g. Dublin, Galway, Cork" /></label>
+          <button class="btn btn-orange btn-full" type="submit">Register interest</button>
+          <p class="form-status" data-form-status aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="assets/logo_horizontal_white_ride_transparent.svg" alt="RideMate" />
+        <p>Ireland's trusted platform for supervised learner-driver journeys.</p>
+      </div>
+      <div>
+        <h3>Product</h3>
+        <a href="#learners">Learners</a>
+        <a href="#mates">Driving Mates</a>
+        <a href="#technology">Technology</a>
+        <a href="#pricing">Pricing</a>
+      </div>
+      <div>
+        <h3>Trust</h3>
+        <a href="#safety">Safety</a>
+        <a href="#safety">Compliance</a>
+        <a href="#waitlist">Pilot waitlist</a>
+      </div>
+      <div>
+        <h3>Note</h3>
+        <p class="footer-note">RideMate is a feasibility-stage concept. It is not an RSA or Garda approved service and should obtain legal, insurance and regulatory guidance before launch.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
